@@ -1,16 +1,38 @@
 # seins
 
-A new Flutter application.
+切换主题
+为了实现实时切换主题颜色，使用了状态管理插件。
 
-## Getting Started
+flutter_redux (https://pub.flutter-io.cn/packages/flutter_redux)
 
-This project is a starting point for a Flutter application.
+极光推送
+在国内厂商中，极光是少有的对Flutter提供了技术支持的，这里给极光大大的👍。
 
-A few resources to get you started if this is your first Flutter project:
+[jpush_flutter](https://pub.flutter-io.cn/packages/jpush_flutter)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+QQ
+QQ的Flutter插件提供了基本的登录、分享功能。
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter_qq  https://pub.flutter-io.cn/packages/flutter_qq
+
+微信
+微信的Flutter插件提供的功能稍微丰富，包含了支付、登录、分享、启动小程序的功能。
+
+fluwx  https://pub.flutter-io.cn/packages/fluwx
+
+事件总线Event Bus
+大名鼎鼎的event_bus也提供了对Flutter的支持。
+
+event_bus  https://pub.flutter-io.cn/packages/event_bus
+
+音频
+录音及播放音频也有很好的支持。
+
+audio_recorder  https://pub.flutter-io.cn/packages/audio_recorder
+
+audioplayer2  https://pub.flutter-io.cn/packages/audioplayer2
+
+其它
+其它诸如加载HTML、Toast提示、图片选择器、图片加载等也有较好的插件支持。
+
+可在 官方插件库 查询相关的插件。
