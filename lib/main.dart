@@ -1,19 +1,37 @@
+import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
-import 'pages/myhomepage.dart';
+import 'package:seins/utils/log_util.dart';
+import 'application.dart';
+import 'model/netease/my_app.dart';
+import 'model/netease/provider/play_list_model.dart';
+import 'model/netease/provider/play_songs_model.dart';
+import 'model/netease/provider/user_model.dart';
+//import 'model/plannet/my_app.dart';
+import 'package:seins/model/netease/route/routes.dart';
+import 'package:provider/provider.dart';
 
-void main() => runApp(MyApp());
+void main() {
+//  runApp(MyApp());
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'seins',
-      theme: ThemeData(
-        primarySwatch: Colors.green,
+  Router router = Router();
+  Routes.configureRoutes(router);
+  Application.router = router;
+  Application.setupLocator();
+  LogUtil.init(tag: 'NETEASE_MUSIC');
+//  AudioPlayer.logEnabled = true;
+  Provider.debugCheckInvalidValueType = null;
+  runApp(MultiProvider(
+    providers: [
+      ChangeNotifierProvider<UserModel>(
+        builder: (_) => UserModel(),
       ),
-//      home: MyHomePage(title: 'Flutter Demo Home Page'),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
-    );
-  }
+      ChangeNotifierProvider<PlaySongsModel>(
+        builder: (_) => PlaySongsModel()..init(),
+      ),
+      ChangeNotifierProvider<PlayListModel>(
+        builder: (_) => PlayListModel(),
+      ),
+    ],
+    child: MyApp(),
+  ));
 }
-
