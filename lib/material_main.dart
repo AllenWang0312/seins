@@ -10,7 +10,7 @@ void main(){
     routes: <String, WidgetBuilder>{
       'a':(BuildContext context)=> new MyPage(title:'page A')
     },
-  ))
+  ));
 }
 
 class MyAppHome extends StatefulWidget{
