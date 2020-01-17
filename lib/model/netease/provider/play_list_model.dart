@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:seins/model/netease/model/play_list.dart';
 import 'package:seins/model/netease/model/user.dart';
-import 'package:seins/utils/net_utils.dart';
+import 'package:seins/model/netease/net_utils.dart';
 
 class PlayListModel with ChangeNotifier {
   User user;

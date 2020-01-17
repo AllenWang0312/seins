@@ -2,7 +2,7 @@ import 'dart:convert' show json;
 import 'dart:convert' as prefix0;
 import 'package:flutter/foundation.dart';
 import 'package:loading_more_list/loading_more_list.dart';
-import 'package:seins/utils/net_utils.dart';
+import 'package:seins/model/netease/net_utils.dart';
 
 
 class EventRepository extends LoadingMoreBase<Event> {

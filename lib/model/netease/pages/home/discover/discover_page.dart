@@ -6,14 +6,14 @@ import 'package:provider/provider.dart';
 import 'package:seins/model/netease/model/album.dart';
 import 'package:seins/model/netease/model/mv.dart';
 import 'package:seins/model/netease/model/recommend.dart';
-import 'package:seins/model/netease/widgets/common_text_style.dart';
-import 'package:seins/model/netease/widgets/h_empty_view.dart';
-import 'package:seins/model/netease/widgets/v_empty_view.dart';
-import 'package:seins/model/netease/widgets/widget_banner.dart';
-import 'package:seins/model/netease/widgets/widget_future_builder.dart';
-import 'package:seins/model/netease/widgets/widget_play_list.dart';
+import 'package:seins/model/widgets/common_text_style.dart';
+import 'package:seins/model/widgets/h_empty_view.dart';
+import 'package:seins/model/widgets/v_empty_view.dart';
+import 'package:seins/model/widgets/widget_banner.dart';
+import 'package:seins/model/widgets/widget_future_builder.dart';
+import 'package:seins/model/widgets/widget_play_list.dart';
 import 'package:seins/utils/navigator_util.dart';
-import 'package:seins/utils/net_utils.dart';
+import 'package:seins/model/netease/net_utils.dart';
 import 'package:seins/utils/utils.dart';
 
 class DiscoverPage extends StatefulWidget {

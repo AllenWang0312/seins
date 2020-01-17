@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:seins/model/netease/model/song.dart';
 import 'package:seins/model/netease/provider/play_songs_model.dart';
-import 'package:seins/model/netease/widgets/rounded_net_image.dart';
+import 'package:seins/model/widgets/rounded_net_image.dart';
 import 'package:seins/utils/navigator_util.dart';
 
 import 'common_text_style.dart';

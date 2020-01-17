@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:seins/model/netease/widgets/widget_round_img.dart';
+import 'package:seins/model/widgets/widget_round_img.dart';
 
 import 'common_text_style.dart';
 import 'h_empty_view.dart';

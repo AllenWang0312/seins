@@ -2,7 +2,7 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:seins/model/netease/provider/play_songs_model.dart';
-import 'package:seins/model/netease/widgets/widget_img_menu.dart';
+import 'package:seins/model/widgets/widget_img_menu.dart';
 
 class PlayBottomMenuWidget extends StatelessWidget {
 

@@ -2,7 +2,7 @@ import 'package:common_utils/common_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:seins/model/netease/model/event_content.dart';
-import 'package:seins/model/netease/widgets/rounded_net_image.dart';
+import 'package:seins/model/widgets/rounded_net_image.dart';
 import 'package:seins/utils/number_utils.dart';
 
 import 'common_text_style.dart';

@@ -7,12 +7,12 @@ import 'package:seins/model/netease/model/recommend.dart';
 import 'package:seins/model/netease/pages/home/my/playlist_title.dart';
 import 'package:seins/model/netease/provider/play_list_model.dart';
 import 'package:provider/provider.dart';
-import 'package:seins/model/netease/widgets/common_text_style.dart';
-import 'package:seins/model/netease/widgets/rounded_net_image.dart';
-import 'package:seins/model/netease/widgets/widget_create_play_list.dart';
-import 'package:seins/model/netease/widgets/widget_play_list_menu.dart';
+import 'package:seins/model/widgets/common_text_style.dart';
+import 'package:seins/model/widgets/rounded_net_image.dart';
+import 'package:seins/model/widgets/widget_create_play_list.dart';
+import 'package:seins/model/widgets/widget_play_list_menu.dart';
 import 'package:seins/utils/navigator_util.dart';
-import 'package:seins/utils/net_utils.dart';
+import 'package:seins/model/netease/net_utils.dart';
 import 'package:seins/utils/utils.dart';
 
 class MyPage extends StatefulWidget {

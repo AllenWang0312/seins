@@ -4,10 +4,10 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:seins/model/netease/model/song.dart';
 import 'package:seins/model/netease/provider/play_songs_model.dart';
-import 'package:seins/model/netease/widgets/widget_round_img.dart';
+import 'package:seins/model/widgets/widget_round_img.dart';
 import 'package:seins/utils/navigator_util.dart';
 
-import '../../../application.dart';
+import '../../application.dart';
 import 'common_text_style.dart';
 import 'h_empty_view.dart';
 

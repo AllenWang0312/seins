@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:seins/model/netease/model/play_list.dart';
 import 'package:seins/model/netease/provider/play_list_model.dart';
-import 'package:seins/model/netease/widgets/widget_edit_play_list.dart';
-import 'package:seins/utils/net_utils.dart';
+import 'package:seins/model/widgets/widget_edit_play_list.dart';
+import 'package:seins/model/netease/net_utils.dart';
 import 'package:seins/utils/utils.dart';
 
 import 'common_text_style.dart';

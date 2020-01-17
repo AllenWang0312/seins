@@ -1,7 +1,7 @@
 import 'package:extended_text/extended_text.dart';
 import 'package:flutter/src/painting/text_style.dart';
-import 'package:seins/model/netease/widgets/widget_at_text.dart';
-import 'package:seins/model/netease/widgets/widget_topic_text.dart';
+import 'package:seins/model/widgets/widget_at_text.dart';
+import 'package:seins/model/widgets/widget_topic_text.dart';
 
 class EventSpecialTextSpanBuilder extends SpecialTextSpanBuilder{
   @override

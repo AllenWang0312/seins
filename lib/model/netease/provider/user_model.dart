@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:seins/application.dart';
 import 'package:seins/model/netease/model/user.dart';
-import 'package:seins/utils/net_utils.dart';
+import 'package:seins/model/netease/net_utils.dart';
 import 'package:seins/utils/utils.dart';
 
 class UserModel with ChangeNotifier {

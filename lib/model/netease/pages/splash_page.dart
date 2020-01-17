@@ -6,7 +6,7 @@ import 'package:seins/model/netease/provider/play_songs_model.dart';
 import 'package:seins/model/netease/provider/user_model.dart';
 import 'package:seins/utils/fluro_convert_utils.dart';
 import 'package:seins/utils/navigator_util.dart';
-import 'package:seins/utils/net_utils.dart';
+import 'package:seins/model/netease/net_utils.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../../application.dart';
 import 'package:provider/provider.dart';

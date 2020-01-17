@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:seins/model/netease/widgets/common_text_style.dart';
-import 'package:seins/model/netease/widgets/h_empty_view.dart';
+import 'package:seins/model/widgets/common_text_style.dart';
+import 'package:seins/model/widgets/h_empty_view.dart';
 
 /// 构建歌单标题
 class PlaylistTitle extends StatefulWidget {

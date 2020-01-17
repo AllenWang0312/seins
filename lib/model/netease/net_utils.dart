@@ -20,10 +20,10 @@ import 'package:seins/model/netease/model/event.dart' as prefix0;
 import 'package:seins/model/netease/model/user.dart';
 import 'package:seins/model/netease/route/navigate_service.dart';
 import 'package:seins/model/netease/route/routes.dart';
-import 'package:seins/model/netease/widgets/loading.dart';
+import 'package:seins/model/widgets/loading.dart';
 import 'package:seins/utils/utils.dart';
-import '../application.dart';
-import 'custom_log_interceptor.dart';
+import '../../application.dart';
+import '../../utils/custom_log_interceptor.dart';
 
 class NetUtils {
   static Dio _dio;
