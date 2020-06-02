@@ -1,8 +1,24 @@
 buildscript {
     ext.kotlin_version = '1.3.50'
     repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }
         google()
         jcenter()
+//        def REPOSITORY_URL =
+//                'http://maven.aliyun.com/nexus/content/groups/public/'
+//        all { ArtifactRepository repo ->
+//            if (repo instanceof MavenArtifactRepository) {
+//                def url = repo.url.toString()
+//                if (url.startsWith('https://repo1.maven.org/maven2') ||
+//                        url.startsWith('https://jcenter.bintray.com/')) {
+//                    remove repo
+//                }
+//            }
+//        }
+
+
     }
 
     dependencies {
@@ -13,8 +29,13 @@ buildscript {
 
 allprojects {
     repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }
         google()
         jcenter()
+
+
     }
 }
 
